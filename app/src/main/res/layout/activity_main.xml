@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tanvi.notes.MainActivity"
+    android:orientation="vertical"
+    android:background="#fff0ae">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="NOTES"
+       android:textSize="30dp"
+       android:layout_gravity="center"
+       android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tanvi"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Tanvi mathur"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp" >
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp"
+        android:layout_gravity="center"
+        >
+    </Spinner>
+</LinearLayout>
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="proceed"
+     android:layout_gravity="center"
+     android:layout_marginTop="30dp"
+     android:id="@+id/bt"
+     android:layout_marginBottom="30dp"/>
+</LinearLayout>
